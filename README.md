@@ -24,3 +24,12 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+
+
+Snack 1 
+creo l'array con gli invitati
+creo un array vuoto in cui inserire gli invitati come oggetto insieme al nome del tavolo e al posto
+creo un ciclo forEach 
+per ogni invitato creo nell'array vuoto l'indice (tableName), (guestName), (place).
+stampo i valori in console
