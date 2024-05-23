@@ -2,9 +2,9 @@ const invitedGuest = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronal
 const invitedList = {};
 
 invitedGuest.forEach((value, index) => {
-    invitedList.tableName = 'Tavolo Vip';
-    invitedList.guestName = value;
-    invitedList.place = index;
+    invitedList[index] = tableName = 'Tavolo Vip';
+    invitedList[index] = guestName = value;
+    invitedList[index] = place = index;
     
     console.log(invitedList);
 })
