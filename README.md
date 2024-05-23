@@ -14,7 +14,7 @@ Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e som
 1. Per preparare l'aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo, ad esempio (Marco della Rovere => MARCO DELLA ROVERE);
 2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
-Buon pomeriggio e buon lavoro !!! :faccia_nerd:
+
 Questo è l'elenco degli studenti:
 Id  Name                Grades
 213 Giuseppina della Rovere 78
@@ -33,3 +33,9 @@ creo un array vuoto in cui inserire gli invitati come oggetto insieme al nome de
 creo un ciclo forEach 
 per ogni invitato creo nell'array vuoto l'indice (tableName), (guestName), (place).
 stampo i valori in console
+
+Snack 2
+creo un array di oggetti con i valori nella tabella
+creo 2 array vuoti 
+utilizzo il metodo filter per filtrare gli studenti in base al totale dei voti e all'id
+utilizzo il metodo filter per filtrare gli studenti rimasti in base al totale dei voti
