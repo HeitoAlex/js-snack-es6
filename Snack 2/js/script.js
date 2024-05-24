@@ -47,13 +47,12 @@ const studentList = [
     }
 ];
 
-// let upperCaseList = [];
+const upperCaseList = studentList.map((element) => {
+    element.name = element.name.toUpperCase()
+    return element
+})
 
 
-// for (i = 0; i < studentList.length; i++){
-//     studentList.name.toUpperCase()
-//     upperCaseList.push(studentList.name)
-// }
 
 
 
