@@ -47,11 +47,15 @@ const studentList = [
     }
 ];
 
-const upperCaseList = studentList.map((element) => {
-    element.name = element.name.toUpperCase()
-    return element
-})
+// const upperCaseList = studentList.map((element) => {
+//     element.name = element.name.toUpperCase()
+//     return element
+// })
 
+// const upperCaseList = studentList.map((student) => {
+//     student.name = studentList.name.toUpperCase()
+//     return student
+// })
 
 
 
