@@ -62,3 +62,16 @@ Questi articoli sono inseriti in un array di oggetti.
 Dobbiamo attaccare a ognuno un cartellino position con una lettera dell'alfabeto generata casualmente e inserire gli oggetti così modificati in un nuovo array di oggetti.
 BONUS 2
 Stampare in pagina oltre che in console!
+
+
+Snack 3 scomponimento problema
+creo un array di oggetti
+assegno ad ogni oggetto rappresentante una bici i valori di nome e peso
+creo una variabile composta solo dal peso delle bici
+estraggo dalla variabile il valore minore e lo stampo in console
+
+Snack4
+creo un array di squadre e per ognuna definisco le proprietà nome, punti fatti, falli subiti
+compilo i nomi delle squadre e imposto 0 nelle altre 2 proprietà
+creo un ciclo for each che assegni alle proprietà con 0 un valore random 
+con un altro ciclo for each estraggo in un nuovo array solo i nomi e i falli subiti e li stampo in console
