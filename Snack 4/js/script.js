@@ -57,6 +57,8 @@ footballTeams.forEach((footballTeam) => {
     
 })
 
+footballTeams.forEach((element) => {
+    const {nome, falliSubiti} = element;
+    console.log(nome, falliSubiti);
+});
 
-const {nome, falliSubiti} = footballTeams;
-console.log(nome, falliSubiti);
