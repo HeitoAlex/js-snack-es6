@@ -41,11 +41,11 @@ const fashionArticle = [
 let newFashionArticle = [];
 
 
-fashionArticle.forEach(() => {
-    const obj = {name: 'Poppy', type: 'tshirt', color: 'red'};
-    const newObj = {...obj, position: 0};
-    console.log(newObj);
-})
+// fashionArticle.forEach(() => {
+//     const obj = {name: 'Poppy', type: 'tshirt', color: 'red'};
+//     const newObj = {...obj, position: 0};
+//     console.log(newObj);
+// })
 
 fashionArticle.forEach((article) => {
     article.position = generateRandomLetter();
