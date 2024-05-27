@@ -51,3 +51,5 @@ fashionArticle.forEach((article) => {
     article.position = generateRandomLetter();
     newFashionArticle.push(article);
 })
+
+console.log(fashionArticle, newFashionArticle)
