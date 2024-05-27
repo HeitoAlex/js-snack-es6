@@ -47,4 +47,7 @@ fashionArticle.forEach(() => {
     console.log(newObj);
 })
 
-
+fashionArticle.forEach((article) => {
+    article.position = generateRandomLetter();
+    newFashionArticle.push(article);
+})
